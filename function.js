@@ -8,3 +8,8 @@ function goal(){
 }
 goal()
 
+function rishav(){//function name is rishav
+    console.log("how was your day")
+    console.log("how are you doing")
+}
+rishav()//this is function call

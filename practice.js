@@ -20,4 +20,4 @@ console.log(b)
 // it is better to keep your variables in function and block scope
 // Than block scope,more you keep variables locked the better
 //There also a module scope which works in side module
-// also variables definrd by the variable var are only function scope           
+// also variables defined by the variable var are only function scope           

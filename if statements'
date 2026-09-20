@@ -1,0 +1,8 @@
+if (condition){
+    statement
+}
+else if(another condition){
+    statement
+}
+else
+    statement

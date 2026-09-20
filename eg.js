@@ -34,6 +34,7 @@ console.log("s",s)
 // ** exponentiation
 // / division 
 // % modulas (remainder)
+
 const w = 5
 const l = 7
 const n =  l % w 
