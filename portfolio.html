@@ -22,6 +22,7 @@
     h1{
       
           color: red; 
+          justify-content: center;
     }
     h2{
       color: cyan;
@@ -42,15 +43,77 @@
     .rombus{
     color:bisque;
     }
+    
+    .navbar{
+      display: flex;
+      justify-content: space-around;
+      ul{
+        color: red;
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+        li{
+          color: white;
+          justify-content: center;
+          a{
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+          }
+        }
+        
+      }
+    }
+    .text{
+      display:flex;
+      justify-content:space-around;
+      height: 500px;
+      /* flex-wrap:wrap; */
+      align-items: center ;
+       
+    }
+    .circle{
+      /* display:flex; */
+      /* flex-wrap:wrap; */
+      /* justify-content: left; */
+
+      /* margin-top: 100px; */
+      
+    }
+    img{
+      display:flex;
+      justify-content: right;
+      /* margin-right: 300px; */
+      /* margin-left:5px; */
+      /* padding:50px; */
+
+    }
+    
   </style>
 <body>
-    <h1 class="rombus"> Coding Class</h1>
-    <!-- h1,h2,h3 are the headings used in our webpage or website .  -->
-    <h2>Rishav Jaiswal</h2>
-    <h3>class 7</h3>
-    <p>Hello my name is Rishav Jaiswal . I study in grade 7 . I study in Nightingale school .  </p> 
-     <p2>hello how are you user . Are you fine or not . Ask me question please .</p2>
-</body>
+    <div class="navbar">
+      <h1>Rishav Jaiswal</h1>
+      <ul>
+        <li class="li1"><a href="#home" >Home</a></li>
+        <li class="li2>"><a href="#contactUs">Contact us</a></li>
+        <li><a href="#ourSpeciality">Our speciality</a></li>
+        <li><a href="#explore">Explore </a></li>
+      </ul>
+    </div>
+    <div class="text">
+      <img src="photos/IMG-20240330-WA0051.jpg" height="500px" length="500px" breadth="500px">
+      <div class="circle">
+        <h1 class="rombus"> Coding Class</h1>
+        <!-- h1,h2,h3 are the headings used in our webpage or website .  -->
+        <h2>Rishav Jaiswal</h2>
+        <h3>class 7</h3>
+        <p>Hello my name is Rishav Jaiswal . I study in grade 7 . I study in Nightingale school .  </p> 
+        <p2>hello how are you user . Are you fine or not . Ask me question please .</p2>
+      </div>
+    <div>
+    
+  </div>
+  </body>
 </html>
 
 
